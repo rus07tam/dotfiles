@@ -27,6 +27,7 @@
     android-tools
     qemu
     google-chrome
+    logisim
     inputs.ayugram-desktop.packages.${pkgs.system}.ayugram-desktop
     inputs.wezterm.packages.${pkgs.system}.default
     osu-lazer-bin
