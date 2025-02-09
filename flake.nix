@@ -12,6 +12,10 @@
       hyprland.url = "github:hyprwm/Hyprland";
       hyprpolkitagent.url = "github:hyprwm/hyprpolkitagent";
       hyprpanel.url = "github:Jas-SinghFSU/HyprPanel";
+      nixvim = {
+        url = "github:nix-community/nixvim";
+        inputs.nixpkgs.follows = "nixpkgs";
+      };
       nur.url = "github:nix-community/NUR";
       apple-fonts.url = "github:Lyndeno/apple-fonts.nix";
       polymc.url = "github:PolyMC/PolyMC";

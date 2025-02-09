@@ -10,6 +10,7 @@
       inter
       lato
       lexend
+      liberation_ttf
       jost
       dejavu_fonts
       noto-fonts
