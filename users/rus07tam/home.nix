@@ -29,6 +29,7 @@
     android-tools
     qemu
     google-chrome
+    firefox
     logisim-evolution
     inputs.ayugram-desktop.packages.${pkgs.system}.ayugram-desktop
     inputs.wezterm.packages.${pkgs.system}.default

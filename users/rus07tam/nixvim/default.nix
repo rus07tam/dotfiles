@@ -13,7 +13,7 @@
     plugins.lualine.enable = true;
     keymaps = [
       {
-        mode = "n"; # Нормальный режим
+        mode = "n";
         key = "j";
         action = "h";
       }
