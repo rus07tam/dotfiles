@@ -25,21 +25,22 @@
   home.sessionVariables.SHELL = "${pkgs.zsh}/bin/zsh";
 
   home.packages = with pkgs; [
-    vscodium
     android-tools
-    qemu
-    google-chrome
+    bun
+    dolphin
+    eza
     firefox
-    logisim-evolution
+    google-chrome
     inputs.ayugram-desktop.packages.${pkgs.system}.ayugram-desktop
     inputs.wezterm.packages.${pkgs.system}.default
-    osu-lazer-bin
-    dolphin
-    polymc
+    inkscape
+    logisim-evolution
     nodejs_23
-    yarn
-    bun
-    eza
     openssl
+    osu-lazer-bin
+    polymc
+    qemu
+    vscodium
+    yarn
   ];
 }
