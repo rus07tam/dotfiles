@@ -37,6 +37,7 @@
     logisim-evolution
     nodejs_23
     openssl
+    openssl.dev
     osu-lazer-bin
     polymc
     qemu
